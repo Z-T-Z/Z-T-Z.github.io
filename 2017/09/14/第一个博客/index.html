@@ -15,10 +15,10 @@
 <meta property="og:locale" content="zh-tw">
 <meta property="og:image" content="http://www.zengzhi.group/images/pasted-0.png">
 <meta property="og:image" content="http://www.zengzhi.group/images/pasted-1.png">
-<meta property="og:image" content="http://yoursite.com/2017/09/14/第一个博客/images/pasted-2.png">
-<meta property="og:image" content="http://yoursite.com/2017/09/14/第一个博客/images/pasted-3.png">
-<meta property="og:image" content="http://yoursite.com/2017/09/14/第一个博客/images/pasted-4.png">
-<meta property="og:updated_time" content="2017-09-15T06:41:40.354Z">
+<meta property="og:image" content="http://www.zengzhi.group/images/pasted-2.png">
+<meta property="og:image" content="http://www.zengzhi.group/images/pasted-3.png">
+<meta property="og:image" content="http://www.zengzhi.group/images/pasted-4.png">
+<meta property="og:updated_time" content="2017-09-15T06:47:29.252Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo第一篇博客,简述Hexo部署过程">
 <meta name="twitter:description" content="关于hexo的部署需要使用到的工具:    1.安装Node 作用：用来生成静态页面的.    2.安装Git  作用：把本地的hexo内容提交到github上去.   3.github 帐号 作用：是用来做博客的远程创库、域名、服务器   4.域名  安装部署过程简述:    安装教程在网上可以查到很多,这里不过多赘述,在次简述安装过程中遇到的问题,以及解决方式   一般来说,node,git安">
@@ -141,9 +141,9 @@
 <p><img src="http://www.zengzhi.group/images/pasted-0.png" alt="upload successful"><br>这里是安装完成的文件夹</p>
 <p>如果一切顺利,到这里便完成了hexo 本地安装,使用hexo s 命令可启动本地服务,打开<a href="http://localhost:4000" target="_blank" rel="external">http://localhost:4000</a><br>可看到本地效果.安装过程中不会遇到很麻烦的问题,只要注意命令以及文件夹,安装完后可在文件夹中找到<br><img src="http://www.zengzhi.group/images/pasted-1.png" alt="upload successful">进行配置修改,这个文件暂且记下,稍后还会再提到.</p>
 <p>到这一步只是将hexo本地项目处理完毕,并无法线上访问,接下来来说这一部分.</p>
-<p>首先处理github帐号,需要在github上 new repository<br>如图<br><img src="/2017/09/14/第一个博客/images/pasted-2.png" alt="Alt text"><br>切记  名称需一致 ,名称需一致.<br>之后需要修改刚才提到过的  _config.yml<br>修改其中的配置<br>如图<br><img src="/2017/09/14/第一个博客/images/pasted-3.png" alt="Alt text"><br>在这里有一个问题<br>:后面有空格,这个空格如果不写将会报错</p>
+<p>首先处理github帐号,需要在github上 new repository<br>如图<br><img src="http://www.zengzhi.group/images/pasted-2.png" alt="Alt text"><br>切记  名称需一致 ,名称需一致.<br>之后需要修改刚才提到过的  _config.yml<br>修改其中的配置<br>如图<br><img src="http://www.zengzhi.group/images/pasted-3.png" alt="Alt text"><br>在这里有一个问题<br>:后面有空格,这个空格如果不写将会报错</p>
 <p>配置完这些,回到github帐号,在新建的仓库中的setting中添加自己的域名</p>
-<p><img src="/2017/09/14/第一个博客/images/pasted-4.png" alt="Alt text"></p>
+<p><img src="http://www.zengzhi.group/images/pasted-4.png" alt="Alt text"></p>
 <p>之后去处理自己的域名<br>添加域名解析即可<br>注意的问题是,域名如果没有做实名制,则可能出现无法使用的情况,域名解析添加github仓库名称<br>Z-T-Z.github.io.git</p>
 <p>做到这大体配置完毕,当然以上只是个人笔记式分享,具体诸多细可能有未提及之处,博客的主题替换,配置文件编码问题,图片显示等在这并未涉及,如有兴趣,可搜索具体问题教程.这里不做赘述.</p>
 
